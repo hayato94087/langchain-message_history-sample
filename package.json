@@ -14,5 +14,10 @@
     "@types/node": "^20.14.1",
     "typescript": "^5.4.5",
     "vite-node": "^1.6.0"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.2.6",
+    "@langchain/core": "^0.2.5",
+    "langchain": "^0.2.5"
   }
 }
