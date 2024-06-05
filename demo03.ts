@@ -53,7 +53,7 @@ const configSessionId1 = {
 };
 const response1SessionId1 = await withMessageHistory.invoke(
   {
-    input: "私の好きなアイスクリームはチョコレートですです",
+    input: "私の好きなアイスクリームはチョコレートです",
   } as { chat_history: BaseMessage[]; input: string },
   configSessionId1
 ) 
